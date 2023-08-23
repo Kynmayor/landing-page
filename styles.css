@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #1F2937;
+    color: white;
+}
+
+.even-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(162, 187, 187);
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:  rgb(162, 187, 187);
+}
+
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.logo-container {
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+
+.header-text,
+.image-holder {
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.image-holder {
+    text-align: center;
+    /* background-color: rgb(208, 220, 241); */
+}
+
+.header-image {
+    width: 400px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 25px;
+    line-height: 60px;
+}
+
+.hero-secondary {
+    font-size: 25px;
+    color: #E5E7EB;
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color: rgb(91, 91, 107);
+    color: #F9FAF8;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.main-text {
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+
+.main-image {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #1F2937;
+    border-radius: 20px;
+}
+
+.section-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main-display {
+
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    margin: 0 auto;
+
+}
+
+.information-header {
+    margin-bottom: 70px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 60px 0;
+}
+
+blockquote {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.citation {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    margin: 60px auto;
+    width: 1200px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px 0;
+}
